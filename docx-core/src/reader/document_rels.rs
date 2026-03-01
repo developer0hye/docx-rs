@@ -34,7 +34,17 @@ pub fn read_document_rels(
         .ok_or(ReaderError::DocumentRelsNotFoundError)?;
     let p = find_rels_filename(&main_path)?;
     let p = p.to_str().ok_or(ReaderError::DocumentRelsNotFoundError)?;
-    let data = read_zip(archive, p)?;
+    // The document rels file is optional in minimal DOCX files.
+    // Return an empty set of relationships if it doesn't exist.
+    let data = match read_zip(archive, p) {
+        Ok(d) => d,
+        Err(ReaderError::ZipError(_)) => {
+            return Ok(ReadDocumentRels {
+                rels: BTreeMap::new(),
+            });
+        }
+        Err(e) => return Err(e),
+    };
     let rels = read_rels_xml(&data[..], dir)?;
     Ok(ReadDocumentRels { rels })
 }

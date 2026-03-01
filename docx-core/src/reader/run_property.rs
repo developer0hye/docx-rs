@@ -106,7 +106,12 @@ impl ElementReader for RunProperty {
                         }
                         XMLElement::Color => rp = rp.color(attributes[0].value.clone()),
                         XMLElement::Size => {
-                            rp = rp.size(f64::from_str(&attributes[0].value)? as usize)
+                            // Tolerate unit suffixes like "20pt" in Strict OOXML.
+                            let v = &attributes[0].value;
+                            let stripped = v.replace("pt", "");
+                            if let Ok(s) = f64::from_str(&stripped) {
+                                rp = rp.size(s as usize);
+                            }
                         }
                         XMLElement::Spacing => {
                             if let Some(v) = read_val(&attributes) {
