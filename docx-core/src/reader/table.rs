@@ -1,11 +1,40 @@
+use std::cell::Cell;
 use std::io::Read;
 use std::str::FromStr;
 
 use super::*;
 use crate::types::*;
 
+thread_local! {
+    static TABLE_DEPTH: Cell<u32> = const { Cell::new(0) };
+}
+
+const MAX_TABLE_DEPTH: u32 = 128;
+
+struct DepthGuard;
+
+impl DepthGuard {
+    fn new() -> Result<Self, ReaderError> {
+        TABLE_DEPTH.with(|d| {
+            let depth = d.get();
+            if depth >= MAX_TABLE_DEPTH {
+                return Err(ReaderError::TableDepthExceeded);
+            }
+            d.set(depth + 1);
+            Ok(DepthGuard)
+        })
+    }
+}
+
+impl Drop for DepthGuard {
+    fn drop(&mut self) {
+        TABLE_DEPTH.with(|d| d.set(d.get() - 1));
+    }
+}
+
 impl ElementReader for Table {
     fn read<R: Read>(r: &mut EventReader<R>, _: &[OwnedAttribute]) -> Result<Self, ReaderError> {
+        let _guard = DepthGuard::new()?;
         let mut t = Table::without_borders(vec![]);
         let mut grid_col: Vec<usize> = vec![];
         loop {
@@ -126,6 +155,67 @@ mod tests {
             Table::without_borders(vec![])
                 .align(TableAlignmentType::Center)
                 .indent(100)
+        );
+    }
+
+    #[test]
+    fn test_deeply_nested_table_returns_error() {
+        // Spawn a thread with enough stack to test the depth guard
+        // (default test thread stack may be too small for 200 levels in debug mode)
+        let handle = std::thread::Builder::new()
+            .stack_size(32 * 1024 * 1024) // 32 MB
+            .spawn(|| {
+                // Build XML with 200+ nested <w:tbl><w:tr><w:tc> elements
+                let depth = 200;
+                let mut xml = String::from(
+                    r#"<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">"#,
+                );
+                for _ in 0..depth {
+                    xml.push_str("<w:tbl><w:tr><w:tc>");
+                }
+                // Innermost content
+                xml.push_str("<w:p><w:r><w:t>deep</w:t></w:r></w:p>");
+                for _ in 0..depth {
+                    xml.push_str("</w:tc></w:tr></w:tbl>");
+                }
+                xml.push_str("</w:document>");
+
+                let mut parser = EventReader::new(xml.as_bytes());
+                let result = Table::read(&mut parser, &[]);
+                assert!(
+                    result.is_err(),
+                    "Expected error for deeply nested tables, got Ok"
+                );
+            })
+            .expect("failed to spawn test thread");
+
+        handle.join().expect("test thread panicked");
+    }
+
+    #[test]
+    fn test_two_level_nested_table_parses_ok() {
+        // A normal 2-level nested table should parse fine
+        let c = r#"<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+<w:tbl>
+    <w:tr>
+        <w:tc>
+            <w:tbl>
+                <w:tr>
+                    <w:tc>
+                        <w:p><w:r><w:t>inner</w:t></w:r></w:p>
+                    </w:tc>
+                </w:tr>
+            </w:tbl>
+        </w:tc>
+    </w:tr>
+</w:tbl>
+</w:document>"#;
+        let mut parser = EventReader::new(c.as_bytes());
+        let result = Table::read(&mut parser, &[]);
+        assert!(
+            result.is_ok(),
+            "Expected 2-level nested table to parse OK, got: {:?}",
+            result.err()
         );
     }
 }
