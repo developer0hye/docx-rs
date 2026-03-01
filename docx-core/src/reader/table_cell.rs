@@ -32,11 +32,13 @@ impl ElementReader for TableCell {
                             }
                             continue;
                         }
-                        XMLElement::Table => {
-                            if let Ok(table) = Table::read(r, &attributes) {
-                                cell = cell.add_table(table)
+                        XMLElement::Table => match Table::read(r, &attributes) {
+                            Ok(table) => cell = cell.add_table(table),
+                            Err(ReaderError::TableDepthExceeded) => {
+                                return Err(ReaderError::TableDepthExceeded);
                             }
-                        }
+                            Err(_) => {}
+                        },
                         _ => {}
                     }
                 }

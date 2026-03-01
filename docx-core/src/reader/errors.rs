@@ -12,6 +12,8 @@ pub enum ReaderError {
     TypeError(#[from] crate::types::TypeError),
     #[error("Failed to read xml.")]
     XMLReadError,
+    #[error("Table nesting depth exceeded maximum limit.")]
+    TableDepthExceeded,
     #[error("Failed to find document.")]
     DocumentNotFoundError,
     #[error("Failed to find document rels.")]
