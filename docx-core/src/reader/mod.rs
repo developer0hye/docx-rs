@@ -36,6 +36,7 @@ mod numbering_property;
 mod numberings;
 mod page_num_type;
 mod paragraph;
+mod paragraph_borders;
 mod paragraph_property;
 mod paragraph_property_change;
 mod pic;

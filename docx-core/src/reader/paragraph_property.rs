@@ -130,6 +130,11 @@ impl ElementReader for ParagraphProperty {
                                 p.frame_property = Some(pr);
                             }
                         }
+                        XMLElement::ParagraphBorders => {
+                            if let Ok(borders) = ParagraphBorders::read(r, &attributes) {
+                                p = p.set_borders(borders);
+                            }
+                        }
                         XMLElement::Tabs => {
                             if let Ok(tabs) = Tabs::read(r, &attributes) {
                                 for t in tabs.tabs {
