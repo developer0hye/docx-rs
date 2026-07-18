@@ -31,6 +31,9 @@ pub struct Style {
     pub semi_hidden: bool,
     #[serde(skip_serializing_if = "is_false")]
     pub unhide_when_used: bool,
+    /// w:default="1": this style is the default for its style type.
+    #[serde(default)]
+    pub default: bool,
 }
 
 const fn is_true(v: &bool) -> bool {
@@ -61,6 +64,7 @@ impl Default for Style {
             ui_priority: None,
             semi_hidden: false,
             unhide_when_used: false,
+            default: false,
         }
     }
 }
@@ -390,8 +394,13 @@ impl BuildXML for Style {
         stream: crate::xml::writer::EventWriter<W>,
     ) -> crate::xml::writer::Result<crate::xml::writer::EventWriter<W>> {
         // Set "Normal" as default if you need change these values please fix it
-        XMLBuilder::from(stream)
-            .open_style(self.style_type, &self.style_id)?
+        let builder = XMLBuilder::from(stream);
+        let builder = if self.default {
+            builder.open_default_style(self.style_type, &self.style_id)?
+        } else {
+            builder.open_style(self.style_type, &self.style_id)?
+        };
+        builder
             .add_child(&self.name)?
             .add_child(&self.run_property)?
             .add_child(&self.paragraph_property)?
