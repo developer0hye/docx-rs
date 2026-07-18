@@ -23,6 +23,9 @@ pub struct Style {
     pub next: Option<Next>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub link: Option<Link>,
+    /// w:default="1": this style is the default for its style type.
+    #[serde(default)]
+    pub default: bool,
 }
 
 impl Default for Style {
@@ -41,6 +44,7 @@ impl Default for Style {
             based_on: None,
             next: None,
             link: None,
+            default: false,
         }
     }
 }
@@ -332,8 +336,13 @@ impl BuildXML for Style {
         stream: crate::xml::writer::EventWriter<W>,
     ) -> crate::xml::writer::Result<crate::xml::writer::EventWriter<W>> {
         // Set "Normal" as default if you need change these values please fix it
-        XMLBuilder::from(stream)
-            .open_style(self.style_type, &self.style_id)?
+        let builder = XMLBuilder::from(stream);
+        let builder = if self.default {
+            builder.open_default_style(self.style_type, &self.style_id)?
+        } else {
+            builder.open_style(self.style_type, &self.style_id)?
+        };
+        builder
             .add_child(&self.name)?
             .add_child(&self.run_property)?
             .add_child(&self.paragraph_property)?

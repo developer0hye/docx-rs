@@ -225,6 +225,15 @@ impl<W: Write> XMLBuilder<W> {
                 .attr("w:styleId", id),
         )
     }
+    // i.e. <w:style w:default="1" ... >
+    pub(crate) fn open_default_style(self, style_type: StyleType, id: &str) -> Result<Self> {
+        self.write(
+            XmlEvent::start_element("w:style")
+                .attr("w:type", &style_type.to_string())
+                .attr("w:styleId", id)
+                .attr("w:default", "1"),
+        )
+    }
     // i.e. <w:next ... >
     closed_with_str!(next, "w:next");
 

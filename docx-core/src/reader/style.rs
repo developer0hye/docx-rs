@@ -12,15 +12,19 @@ impl ElementReader for Style {
     ) -> Result<Self, ReaderError> {
         let mut id = "".to_owned();
         let mut style_type = StyleType::Paragraph;
+        let mut default = false;
         for a in attrs {
             let local_name = &a.name.local_name;
             if local_name == "styleId" {
                 id = a.value.clone();
             } else if local_name == "type" {
                 style_type = StyleType::from_str(&a.value)?;
+            } else if local_name == "default" {
+                default = a.value == "1" || a.value == "true";
             }
         }
         let mut style = Style::new(id, style_type);
+        style.default = default;
         loop {
             let e = r.next();
             match e {
