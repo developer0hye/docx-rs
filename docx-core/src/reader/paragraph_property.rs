@@ -135,6 +135,11 @@ impl ElementReader for ParagraphProperty {
                                 p = p.set_borders(borders);
                             }
                         }
+                        XMLElement::Shading => {
+                            if let Ok(shd) = Shading::read(r, &attributes) {
+                                p = p.shading(shd);
+                            }
+                        }
                         XMLElement::Tabs => {
                             if let Ok(tabs) = Tabs::read(r, &attributes) {
                                 for t in tabs.tabs {
@@ -155,5 +160,34 @@ impl ElementReader for ParagraphProperty {
                 _ => {}
             }
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    #[cfg(test)]
+    use pretty_assertions::assert_eq;
+    use std::io::Cursor;
+
+    #[test]
+    fn test_read_paragraph_shading() {
+        // Word paints paragraph-wide shading from <w:pPr><w:shd>; dropping
+        // it loses code-block backgrounds (office2pdf#351).
+        let xml = r#"<w:pPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+            <w:shd w:val="clear" w:fill="F4F4F4"/>
+        </w:pPr>"#;
+        let mut parser = EventReader::new(Cursor::new(xml));
+        // consume the StartElement for pPr first, mirroring Document::read
+        loop {
+            if let Ok(XmlEvent::StartElement { name, .. }) = parser.next() {
+                if name.local_name == "pPr" {
+                    break;
+                }
+            }
+        }
+        let p = ParagraphProperty::read(&mut parser, &[]).unwrap();
+        let shd = p.shading.expect("paragraph shading must be parsed");
+        assert_eq!(shd.fill, "F4F4F4");
     }
 }
