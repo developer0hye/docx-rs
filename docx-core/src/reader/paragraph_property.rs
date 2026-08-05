@@ -115,6 +115,14 @@ impl ElementReader for ParagraphProperty {
                                 p.widow_control = Some(true);
                             }
                         }
+                        XMLElement::WordWrap => {
+                            // Recorded either way, unlike the flags above it:
+                            // `w:val="0"` is the meaningful setting, asking for
+                            // character-level breaking of East Asian text.
+                            // `read_bool` already yields true for a bare
+                            // `<w:wordWrap/>`, which is what OOXML means by it.
+                            p.word_wrap = Some(read_bool(&attributes));
+                        }
                         XMLElement::ParagraphPropertyChange => {
                             if let Ok(ppr_change) = ParagraphPropertyChange::read(r, &attributes) {
                                 p.paragraph_property_change = Some(ppr_change);
@@ -189,5 +197,48 @@ mod tests {
         let p = ParagraphProperty::read(&mut parser, &[]).unwrap();
         let shd = p.shading.expect("paragraph shading must be parsed");
         assert_eq!(shd.fill, "F4F4F4");
+    }
+
+    #[test]
+    fn test_read_word_wrap() {
+        // `w:val="0"` asks for character-level breaking of East Asian text.
+        // It has to survive as `Some(false)`: dropping it is indistinguishable
+        // from the property being absent (office2pdf#730).
+        let xml = r#"<w:pPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+            <w:wordWrap w:val="0"/>
+        </w:pPr>"#;
+        let mut parser = EventReader::new(Cursor::new(xml));
+        loop {
+            if let Ok(XmlEvent::StartElement { name, .. }) = parser.next() {
+                if name.local_name == "pPr" {
+                    break;
+                }
+            }
+        }
+        let p = ParagraphProperty::read(&mut parser, &[]).unwrap();
+        assert_eq!(p.word_wrap, Some(false));
+    }
+
+    /// A bare `<w:wordWrap/>` means word-level breaking, and an absent one
+    /// leaves the choice to the style chain — the two must not collapse.
+    #[test]
+    fn test_read_word_wrap_defaults() {
+        let read = |body: &str| {
+            let xml = format!(
+                r#"<w:pPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">{body}</w:pPr>"#
+            );
+            let mut parser = EventReader::new(Cursor::new(xml));
+            loop {
+                if let Ok(XmlEvent::StartElement { name, .. }) = parser.next() {
+                    if name.local_name == "pPr" {
+                        break;
+                    }
+                }
+            }
+            ParagraphProperty::read(&mut parser, &[]).unwrap().word_wrap
+        };
+        assert_eq!(read(r#"<w:wordWrap/>"#), Some(true));
+        assert_eq!(read(r#"<w:wordWrap w:val="1"/>"#), Some(true));
+        assert_eq!(read(""), None);
     }
 }

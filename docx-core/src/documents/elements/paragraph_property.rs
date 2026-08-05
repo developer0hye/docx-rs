@@ -31,6 +31,12 @@ pub struct ParagraphProperty {
     pub page_break_before: Option<bool>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub widow_control: Option<bool>,
+    /// `w:wordWrap`. Word's switch between word-level and character-level
+    /// line breaking for East Asian text: `1` keeps a Hangul eojeol whole,
+    /// `0` allows a break at any syllable. Unlike the flags around it, the
+    /// `0` case carries meaning, so it is recorded rather than dropped.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub word_wrap: Option<bool>,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub outline_lvl: Option<OutlineLvl>,
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -146,6 +152,11 @@ impl ParagraphProperty {
     }
     pub fn widow_control(mut self, v: bool) -> Self {
         self.widow_control = Some(v);
+        self
+    }
+
+    pub fn word_wrap(mut self, v: bool) -> Self {
+        self.word_wrap = Some(v);
         self
     }
 
