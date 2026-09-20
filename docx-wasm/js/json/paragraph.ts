@@ -68,6 +68,7 @@ export type ParagraphPropertyJSON = {
   snapToGrid?: boolean;
   pageBreakBefore?: boolean;
   widowControl?: boolean;
+  wordWrap?: boolean;
   outlineLvl?: number | null;
   paragraphPropertyChange?: {
     author: string;
