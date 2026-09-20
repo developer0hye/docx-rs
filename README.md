@@ -45,6 +45,11 @@ pub fn hello() -> Result<(), DocxError> {
 }
 ```
 
+### Reading
+
+`read_docx(&bytes)` rejects packages whose ASCII ZIP part names conflict with
+their resolved filenames.
+
 ### Browser
 
 ```javascript
