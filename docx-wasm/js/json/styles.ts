@@ -5,6 +5,7 @@ import { TableCellPropertyJSON } from "..";
 import { StyleType } from "../style";
 
 export type StyleJSON = {
+  default: boolean;
   styleId: string;
   name: string;
   styleType: StyleType;
