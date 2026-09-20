@@ -616,6 +616,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -689,6 +690,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -761,6 +763,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -815,6 +818,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -1484,6 +1488,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -1751,6 +1756,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -3031,6 +3037,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -3112,6 +3119,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -3184,6 +3192,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -3238,6 +3247,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -3310,6 +3320,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "annotation text",
         "next": null,
@@ -3406,6 +3417,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "コメント文字列 (文字)",
         "next": null,
@@ -3486,6 +3498,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Level 1",
         "next": null,
         "paragraphProperty": Object {
@@ -3575,6 +3588,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Level 2",
         "next": null,
         "paragraphProperty": Object {
@@ -3664,6 +3678,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -3744,6 +3759,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
@@ -4589,6 +4605,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -4662,6 +4679,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -4734,6 +4752,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -4788,6 +4807,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -5593,6 +5613,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -5666,6 +5687,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -5756,6 +5778,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -5846,6 +5869,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "30",
         "name": "heading 3",
         "next": null,
@@ -5936,6 +5960,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "40",
         "name": "heading 4",
         "next": null,
@@ -6024,6 +6049,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "50",
         "name": "heading 5",
         "next": null,
@@ -6120,6 +6146,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "60",
         "name": "heading 6",
         "next": null,
@@ -6216,6 +6243,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "70",
         "name": "heading 7",
         "next": null,
@@ -6312,6 +6340,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "80",
         "name": "heading 8",
         "next": null,
@@ -6408,6 +6437,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "90",
         "name": "heading 9",
         "next": null,
@@ -6504,6 +6534,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -6576,6 +6607,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -6630,6 +6662,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -6702,6 +6735,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -6785,6 +6819,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -6868,6 +6903,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "3",
         "name": "見出し 3 (文字)",
         "next": null,
@@ -6951,6 +6987,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "4",
         "name": "見出し 4 (文字)",
         "next": null,
@@ -7032,6 +7069,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "5",
         "name": "見出し 5 (文字)",
         "next": null,
@@ -7113,6 +7151,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "6",
         "name": "見出し 6 (文字)",
         "next": null,
@@ -7194,6 +7233,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "7",
         "name": "見出し 7 (文字)",
         "next": null,
@@ -7275,6 +7315,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "8",
         "name": "見出し 8 (文字)",
         "next": null,
@@ -7356,6 +7397,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "9",
         "name": "見出し 9 (文字)",
         "next": null,
@@ -7437,6 +7479,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "Title",
         "next": null,
@@ -7524,6 +7567,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "表題 (文字)",
         "next": null,
@@ -7607,6 +7651,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a6",
         "name": "Subtitle",
         "next": null,
@@ -7699,6 +7744,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a5",
         "name": "副題 (文字)",
         "next": null,
@@ -7783,6 +7829,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a8",
         "name": "Quote",
         "next": null,
@@ -7865,6 +7912,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a7",
         "name": "引用文 (文字)",
         "next": null,
@@ -7942,6 +7990,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -8022,6 +8071,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Emphasis",
         "next": null,
         "paragraphProperty": Object {
@@ -8098,6 +8148,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "23",
         "name": "Intense Quote",
         "next": null,
@@ -8208,6 +8259,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "22",
         "name": "引用文 2 (文字)",
         "next": null,
@@ -8285,6 +8337,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -9123,6 +9176,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -9196,6 +9250,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -9286,6 +9341,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -9376,6 +9432,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "30",
         "name": "heading 3",
         "next": null,
@@ -9466,6 +9523,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "40",
         "name": "heading 4",
         "next": null,
@@ -9554,6 +9612,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "50",
         "name": "heading 5",
         "next": null,
@@ -9650,6 +9709,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "60",
         "name": "heading 6",
         "next": null,
@@ -9746,6 +9806,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "70",
         "name": "heading 7",
         "next": null,
@@ -9842,6 +9903,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "80",
         "name": "heading 8",
         "next": null,
@@ -9938,6 +10000,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "90",
         "name": "heading 9",
         "next": null,
@@ -10034,6 +10097,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -10106,6 +10170,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -10160,6 +10225,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -10232,6 +10298,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -10315,6 +10382,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -10398,6 +10466,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "3",
         "name": "見出し 3 (文字)",
         "next": null,
@@ -10481,6 +10550,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "4",
         "name": "見出し 4 (文字)",
         "next": null,
@@ -10562,6 +10632,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "5",
         "name": "見出し 5 (文字)",
         "next": null,
@@ -10643,6 +10714,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "6",
         "name": "見出し 6 (文字)",
         "next": null,
@@ -10724,6 +10796,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "7",
         "name": "見出し 7 (文字)",
         "next": null,
@@ -10805,6 +10878,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "8",
         "name": "見出し 8 (文字)",
         "next": null,
@@ -10886,6 +10960,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "9",
         "name": "見出し 9 (文字)",
         "next": null,
@@ -10967,6 +11042,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "Title",
         "next": null,
@@ -11054,6 +11130,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "表題 (文字)",
         "next": null,
@@ -11137,6 +11214,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a6",
         "name": "Subtitle",
         "next": null,
@@ -11229,6 +11307,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a5",
         "name": "副題 (文字)",
         "next": null,
@@ -11313,6 +11392,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a8",
         "name": "Quote",
         "next": null,
@@ -11395,6 +11475,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a7",
         "name": "引用文 (文字)",
         "next": null,
@@ -11472,6 +11553,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -11552,6 +11634,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Emphasis",
         "next": null,
         "paragraphProperty": Object {
@@ -11628,6 +11711,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "23",
         "name": "Intense Quote",
         "next": null,
@@ -11738,6 +11822,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "22",
         "name": "引用文 2 (文字)",
         "next": null,
@@ -11815,6 +11900,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -11892,6 +11978,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "ab",
         "name": "header",
         "next": null,
@@ -11977,6 +12064,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "aa",
         "name": "ヘッダー (文字)",
         "next": null,
@@ -12050,6 +12138,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "ad",
         "name": "footer",
         "next": null,
@@ -12135,6 +12224,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "ac",
         "name": "フッター (文字)",
         "next": null,
@@ -13125,6 +13215,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -13385,6 +13476,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -13763,6 +13855,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -13836,6 +13929,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -13908,6 +14002,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -13962,6 +14057,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -14034,6 +14130,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Subtle Emphasis",
         "next": null,
         "paragraphProperty": Object {
@@ -14110,6 +14207,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a5",
         "name": "Subtitle",
         "next": null,
@@ -14188,6 +14286,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a4",
         "name": "副題 (文字)",
         "next": null,
@@ -14264,6 +14363,7 @@ Object {
       },
       Object {
         "basedOn": "a3",
+        "default": false,
         "name": "test",
         "next": null,
         "paragraphProperty": Object {
@@ -15115,6 +15215,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -15188,6 +15289,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -15260,6 +15362,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -15314,6 +15417,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -15386,6 +15490,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "header",
         "next": null,
@@ -15471,6 +15576,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "ヘッダー (文字)",
         "next": null,
@@ -15544,6 +15650,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a6",
         "name": "footer",
         "next": null,
@@ -15629,6 +15736,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a5",
         "name": "フッター (文字)",
         "next": null,
@@ -18155,6 +18263,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -18235,6 +18344,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -18307,6 +18417,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -18361,6 +18472,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -19057,6 +19169,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -19130,6 +19243,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -19202,6 +19316,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -19256,6 +19371,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -19328,6 +19444,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -19403,6 +19520,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Unresolved Mention",
         "next": null,
         "paragraphProperty": Object {
@@ -19482,6 +19600,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "FollowedHyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -20705,6 +20824,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -20778,6 +20898,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -20862,6 +20983,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -20934,6 +21056,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -20988,6 +21111,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -21060,6 +21184,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -21135,6 +21260,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Unresolved Mention",
         "next": null,
         "paragraphProperty": Object {
@@ -21214,6 +21340,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
@@ -21286,6 +21413,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "FollowedHyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -21361,6 +21489,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -22274,6 +22403,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -22347,6 +22477,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -22419,6 +22550,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -22473,6 +22605,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -23198,6 +23331,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -23270,6 +23404,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -23360,6 +23495,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -23450,6 +23586,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "30",
         "name": "heading 3",
         "next": null,
@@ -23540,6 +23677,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "40",
         "name": "heading 4",
         "next": null,
@@ -23628,6 +23766,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "50",
         "name": "heading 5",
         "next": null,
@@ -23724,6 +23863,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "60",
         "name": "heading 6",
         "next": null,
@@ -23820,6 +23960,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "70",
         "name": "heading 7",
         "next": null,
@@ -23916,6 +24057,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "80",
         "name": "heading 8",
         "next": null,
@@ -24012,6 +24154,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "90",
         "name": "heading 9",
         "next": null,
@@ -24108,6 +24251,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -24180,6 +24324,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -24234,6 +24379,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -24306,6 +24452,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -24389,6 +24536,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -24472,6 +24620,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "3",
         "name": "見出し 3 (文字)",
         "next": null,
@@ -24555,6 +24704,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "4",
         "name": "見出し 4 (文字)",
         "next": null,
@@ -24636,6 +24786,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "5",
         "name": "見出し 5 (文字)",
         "next": null,
@@ -24717,6 +24868,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "6",
         "name": "見出し 6 (文字)",
         "next": null,
@@ -24798,6 +24950,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "7",
         "name": "見出し 7 (文字)",
         "next": null,
@@ -24879,6 +25032,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "8",
         "name": "見出し 8 (文字)",
         "next": null,
@@ -24960,6 +25114,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "9",
         "name": "見出し 9 (文字)",
         "next": null,
@@ -25041,6 +25196,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "Title",
         "next": null,
@@ -25130,6 +25286,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "表題 (文字)",
         "next": null,
@@ -25213,6 +25370,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a6",
         "name": "Subtitle",
         "next": null,
@@ -25302,6 +25460,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a5",
         "name": "副題 (文字)",
         "next": null,
@@ -25386,6 +25545,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a8",
         "name": "Quote",
         "next": null,
@@ -25467,6 +25627,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a7",
         "name": "引用文 (文字)",
         "next": null,
@@ -25544,6 +25705,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -25624,6 +25786,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Emphasis",
         "next": null,
         "paragraphProperty": Object {
@@ -25700,6 +25863,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "23",
         "name": "Intense Quote",
         "next": null,
@@ -25810,6 +25974,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "22",
         "name": "引用文 2 (文字)",
         "next": null,
@@ -25887,6 +26052,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -31469,6 +31635,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Title",
         "next": null,
         "paragraphProperty": Object {
@@ -31544,6 +31711,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Heading 1",
         "next": null,
         "paragraphProperty": Object {
@@ -31620,6 +31788,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Heading 2",
         "next": null,
         "paragraphProperty": Object {
@@ -31696,6 +31865,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Heading 3",
         "next": null,
         "paragraphProperty": Object {
@@ -31772,6 +31942,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Heading 4",
         "next": null,
         "paragraphProperty": Object {
@@ -31848,6 +32019,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Heading 5",
         "next": null,
         "paragraphProperty": Object {
@@ -31922,6 +32094,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Heading 6",
         "next": null,
         "paragraphProperty": Object {
@@ -31996,6 +32169,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Strong",
         "next": null,
         "paragraphProperty": Object {
@@ -32071,6 +32245,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -32143,6 +32318,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -32218,6 +32394,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "name": "footnote reference",
         "next": null,
         "paragraphProperty": Object {
@@ -32292,6 +32469,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "FootnoteTextChar",
         "name": "footnote text",
         "next": null,
@@ -32373,6 +32551,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "FootnoteText",
         "name": "Footnote Text Char",
         "next": null,
@@ -32449,6 +32628,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -32521,6 +32701,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -32606,6 +32787,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "TitleChar",
         "name": "Title",
         "next": null,
@@ -32687,6 +32869,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Title",
         "name": "Title Char",
         "next": null,
@@ -32763,6 +32946,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "SubtitleChar",
         "name": "Subtitle",
         "next": null,
@@ -32838,6 +33022,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Subtitle",
         "name": "Subtitle Char",
         "next": null,
@@ -32913,6 +33098,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "Heading1Char",
         "name": "Heading 1",
         "next": null,
@@ -32997,6 +33183,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Heading1",
         "name": "Heading 1 Char",
         "next": null,
@@ -33074,6 +33261,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "Heading2Char",
         "name": "Heading 2",
         "next": null,
@@ -33158,6 +33346,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Heading2",
         "name": "Heading 2 Char",
         "next": null,
@@ -33235,6 +33424,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "Heading3Char",
         "name": "Heading 3",
         "next": null,
@@ -33319,6 +33509,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Heading3",
         "name": "Heading 3 Char",
         "next": null,
@@ -33396,6 +33587,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "Heading4Char",
         "name": "Heading 4",
         "next": null,
@@ -33480,6 +33672,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Heading4",
         "name": "Heading 4 Char",
         "next": null,
@@ -33557,6 +33750,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "Heading5Char",
         "name": "Heading 5",
         "next": null,
@@ -33639,6 +33833,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Heading5",
         "name": "Heading 5 Char",
         "next": null,
@@ -33714,6 +33909,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "Heading6Char",
         "name": "Heading 6",
         "next": null,
@@ -33796,6 +33992,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Heading6",
         "name": "Heading 6 Char",
         "next": null,
@@ -33871,6 +34068,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "QuoteChar",
         "name": "Quote",
         "next": null,
@@ -33960,6 +34158,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "QuoteChar",
         "name": "Quote",
         "next": null,
@@ -34333,6 +34532,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -35532,6 +35732,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -35605,6 +35806,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -35677,6 +35879,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -35731,6 +35934,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -35803,6 +36007,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -37747,6 +37952,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -37819,6 +38025,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -37891,6 +38098,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -37945,6 +38153,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -38017,6 +38226,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "annotation text",
         "next": null,
@@ -38090,6 +38300,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "コメント文字列 (文字)",
         "next": null,
@@ -38163,6 +38374,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "annotation reference",
         "next": null,
         "paragraphProperty": Object {
@@ -38238,6 +38450,7 @@ Object {
       },
       Object {
         "basedOn": "a3",
+        "default": false,
         "link": "a7",
         "name": "annotation subject",
         "next": null,
@@ -38314,6 +38527,7 @@ Object {
       },
       Object {
         "basedOn": "a4",
+        "default": false,
         "link": "a6",
         "name": "コメント内容 (文字)",
         "next": null,
@@ -38390,6 +38604,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "Table Grid",
         "next": null,
         "paragraphProperty": Object {
@@ -38462,6 +38677,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
@@ -39514,6 +39730,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -39587,6 +39804,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -39659,6 +39877,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -39713,6 +39932,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -39785,6 +40005,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "Table Grid",
         "next": null,
         "paragraphProperty": Object {
@@ -41381,6 +41602,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -41454,6 +41676,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -41572,6 +41795,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -41680,6 +41904,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "30",
         "name": "heading 3",
         "next": null,
@@ -41778,6 +42003,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "40",
         "name": "heading 4",
         "next": null,
@@ -41875,6 +42101,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "50",
         "name": "heading 5",
         "next": null,
@@ -41975,6 +42202,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "60",
         "name": "heading 6",
         "next": null,
@@ -42072,6 +42300,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "70",
         "name": "heading 7",
         "next": null,
@@ -42162,6 +42391,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -42234,6 +42464,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -42288,6 +42519,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -42360,6 +42592,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -42444,6 +42677,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -42526,6 +42760,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "3",
         "name": "見出し 3 (文字)",
         "next": null,
@@ -42606,6 +42841,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "4",
         "name": "見出し 4 (文字)",
         "next": null,
@@ -42686,6 +42922,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "5",
         "name": "見出し 5 (文字)",
         "next": null,
@@ -42766,6 +43003,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "6",
         "name": "見出し 6 (文字)",
         "next": null,
@@ -42846,6 +43084,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "7",
         "name": "見出し 7 (文字)",
         "next": null,
@@ -44042,6 +44281,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -44115,6 +44355,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -44209,6 +44450,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -44303,6 +44545,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "30",
         "name": "heading 3",
         "next": null,
@@ -44397,6 +44640,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "40",
         "name": "heading 4",
         "next": null,
@@ -44489,6 +44733,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "50",
         "name": "heading 5",
         "next": null,
@@ -44589,6 +44834,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "60",
         "name": "heading 6",
         "next": null,
@@ -44689,6 +44935,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "70",
         "name": "heading 7",
         "next": null,
@@ -44789,6 +45036,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "80",
         "name": "heading 8",
         "next": null,
@@ -44889,6 +45137,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "90",
         "name": "heading 9",
         "next": null,
@@ -44989,6 +45238,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -45061,6 +45311,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -45115,6 +45366,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -45187,6 +45439,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -45270,6 +45523,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -45353,6 +45607,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "3",
         "name": "見出し 3 (文字)",
         "next": null,
@@ -45436,6 +45691,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "4",
         "name": "見出し 4 (文字)",
         "next": null,
@@ -45517,6 +45773,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "5",
         "name": "見出し 5 (文字)",
         "next": null,
@@ -45598,6 +45855,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "6",
         "name": "見出し 6 (文字)",
         "next": null,
@@ -45679,6 +45937,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "7",
         "name": "見出し 7 (文字)",
         "next": null,
@@ -45760,6 +46019,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "8",
         "name": "見出し 8 (文字)",
         "next": null,
@@ -45841,6 +46101,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "9",
         "name": "見出し 9 (文字)",
         "next": null,
@@ -45922,6 +46183,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "Title",
         "next": null,
@@ -46009,6 +46271,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "表題 (文字)",
         "next": null,
@@ -46092,6 +46355,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a6",
         "name": "Subtitle",
         "next": null,
@@ -46184,6 +46448,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a5",
         "name": "副題 (文字)",
         "next": null,
@@ -46268,6 +46533,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a8",
         "name": "Quote",
         "next": null,
@@ -46350,6 +46616,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a7",
         "name": "引用文 (文字)",
         "next": null,
@@ -46427,6 +46694,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -46507,6 +46775,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Emphasis",
         "next": null,
         "paragraphProperty": Object {
@@ -46583,6 +46852,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "23",
         "name": "Intense Quote",
         "next": null,
@@ -46693,6 +46963,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "22",
         "name": "引用文 2 (文字)",
         "next": null,
@@ -46770,6 +47041,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -46847,6 +47119,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "ab",
         "name": "header",
         "next": null,
@@ -46932,6 +47205,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "aa",
         "name": "ヘッダー (文字)",
         "next": null,
@@ -47005,6 +47279,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "ad",
         "name": "footer",
         "next": null,
@@ -47090,6 +47365,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "ac",
         "name": "フッター (文字)",
         "next": null,
@@ -47163,6 +47439,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "page number",
         "next": null,
         "paragraphProperty": Object {
@@ -48247,6 +48524,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -48320,6 +48598,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -48392,6 +48671,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -48446,6 +48726,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -48518,6 +48799,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
@@ -49176,6 +49458,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -103947,6 +104230,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -104034,6 +104318,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 1",
         "next": null,
         "paragraphProperty": Object {
@@ -104133,6 +104418,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 2",
         "next": null,
         "paragraphProperty": Object {
@@ -104246,6 +104532,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 3",
         "next": null,
         "paragraphProperty": Object {
@@ -104348,6 +104635,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 4",
         "next": null,
         "paragraphProperty": Object {
@@ -104449,6 +104737,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 5",
         "next": null,
         "paragraphProperty": Object {
@@ -104537,6 +104826,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 6",
         "next": null,
         "paragraphProperty": Object {
@@ -104621,6 +104911,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 7",
         "next": null,
         "paragraphProperty": Object {
@@ -104720,6 +105011,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 8",
         "next": null,
         "paragraphProperty": Object {
@@ -104812,6 +105104,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "heading 9",
         "next": null,
         "paragraphProperty": Object {
@@ -104894,6 +105187,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -104966,6 +105260,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -105020,6 +105315,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -105092,6 +105388,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Normal Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -105172,6 +105469,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "header",
         "next": null,
         "paragraphProperty": Object {
@@ -105255,6 +105553,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "footer",
         "next": null,
         "paragraphProperty": Object {
@@ -105338,6 +105637,7 @@ Object {
       },
       Object {
         "basedOn": "a9",
+        "default": false,
         "name": "page number",
         "next": null,
         "paragraphProperty": Object {
@@ -105410,6 +105710,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "af0",
         "name": "Body Text Indent",
         "next": null,
@@ -105507,6 +105808,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "24",
         "name": "Body Text Indent 2",
         "next": null,
@@ -105593,6 +105895,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "annotation reference",
         "next": null,
         "paragraphProperty": Object {
@@ -105668,6 +105971,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "ｽﾀﾝﾌﾟ",
         "next": null,
         "paragraphProperty": Object {
@@ -105750,6 +106054,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "af4",
         "name": "annotation text",
         "next": null,
@@ -105830,6 +106135,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "(a) sentence",
         "next": null,
         "paragraphProperty": Object {
@@ -105919,6 +106225,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "(a)本文",
         "next": null,
         "paragraphProperty": Object {
@@ -106017,6 +106324,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "名詞句",
         "next": null,
         "paragraphProperty": Object {
@@ -106133,6 +106441,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "並列１",
         "next": null,
         "paragraphProperty": Object {
@@ -106235,6 +106544,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "注記",
         "next": null,
         "paragraphProperty": Object {
@@ -106339,6 +106649,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 1",
         "next": null,
         "paragraphProperty": Object {
@@ -106440,6 +106751,7 @@ Object {
       },
       Object {
         "basedOn": "af",
+        "default": false,
         "name": "(a)タイトル",
         "next": null,
         "paragraphProperty": Object {
@@ -106530,6 +106842,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "参照2",
         "next": null,
         "paragraphProperty": Object {
@@ -106634,6 +106947,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 2",
         "next": null,
         "paragraphProperty": Object {
@@ -106741,6 +107055,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 3",
         "next": null,
         "paragraphProperty": Object {
@@ -106846,6 +107161,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 4",
         "next": null,
         "paragraphProperty": Object {
@@ -106953,6 +107269,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 5",
         "next": null,
         "paragraphProperty": Object {
@@ -107033,6 +107350,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 6",
         "next": null,
         "paragraphProperty": Object {
@@ -107125,6 +107443,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 7",
         "next": null,
         "paragraphProperty": Object {
@@ -107205,6 +107524,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 8",
         "next": null,
         "paragraphProperty": Object {
@@ -107285,6 +107605,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toc 9",
         "next": null,
         "paragraphProperty": Object {
@@ -107365,6 +107686,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -107440,6 +107762,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Title",
         "next": null,
         "paragraphProperty": Object {
@@ -107526,6 +107849,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Subtitle",
         "next": null,
         "paragraphProperty": Object {
@@ -107612,6 +107936,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "(a)文章",
         "next": null,
         "paragraphProperty": Object {
@@ -107707,6 +108032,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "参照1",
         "next": null,
         "paragraphProperty": Object {
@@ -107798,6 +108124,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Noun phrase",
         "next": null,
         "paragraphProperty": Object {
@@ -107887,6 +108214,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Noun Phrase2",
         "next": null,
         "paragraphProperty": Object {
@@ -107983,6 +108311,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Bullet 1",
         "next": null,
         "paragraphProperty": Object {
@@ -108083,6 +108412,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "名詞句並列1",
         "next": null,
         "paragraphProperty": Object {
@@ -108195,6 +108525,7 @@ Object {
       },
       Object {
         "basedOn": "12",
+        "default": false,
         "name": "注記1",
         "next": null,
         "paragraphProperty": Object {
@@ -108289,6 +108620,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "(1) sentence",
         "next": null,
         "paragraphProperty": Object {
@@ -108379,6 +108711,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "34",
         "name": "Body Text Indent 3",
         "next": null,
@@ -108462,6 +108795,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "FollowedHyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -108537,6 +108871,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "List Number",
         "next": null,
         "paragraphProperty": Object {
@@ -108650,6 +108985,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Reference2",
         "next": null,
         "paragraphProperty": Object {
@@ -108763,6 +109099,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "F_Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -108840,6 +109177,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "F_Bold",
         "next": null,
         "paragraphProperty": Object {
@@ -108915,6 +109253,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Sentence indent2",
         "next": null,
         "paragraphProperty": Object {
@@ -109010,6 +109349,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "F_BOLD&amp;ALLCAPITAL",
         "next": null,
         "paragraphProperty": Object {
@@ -109086,6 +109426,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Definition_sentence",
         "next": null,
         "paragraphProperty": Object {
@@ -109184,6 +109525,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "F_Bold-Smallcap",
         "next": null,
         "paragraphProperty": Object {
@@ -109259,6 +109601,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "List Number 2",
         "next": null,
         "paragraphProperty": Object {
@@ -109350,6 +109693,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Note1",
         "next": null,
         "paragraphProperty": Object {
@@ -109441,6 +109785,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Reference1",
         "next": null,
         "paragraphProperty": Object {
@@ -109546,6 +109891,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Sentence indent1",
         "next": null,
         "paragraphProperty": Object {
@@ -109642,6 +109988,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Bullet1",
         "next": null,
         "paragraphProperty": Object {
@@ -109742,6 +110089,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "List Number 3",
         "next": null,
         "paragraphProperty": Object {
@@ -109833,6 +110181,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Note2",
         "next": null,
         "paragraphProperty": Object {
@@ -109925,6 +110274,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Note3",
         "next": null,
         "paragraphProperty": Object {
@@ -110016,6 +110366,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Bullet2",
         "next": null,
         "paragraphProperty": Object {
@@ -110129,6 +110480,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Sentence indent3",
         "next": null,
         "paragraphProperty": Object {
@@ -110226,6 +110578,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "afa",
         "name": "Body Text",
         "next": null,
@@ -110302,6 +110655,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "font5",
         "next": null,
         "paragraphProperty": Object {
@@ -110392,6 +110746,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "(a)箇条書き",
         "next": null,
         "paragraphProperty": Object {
@@ -110464,6 +110819,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "並列",
         "next": null,
         "paragraphProperty": Object {
@@ -110567,6 +110923,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Date",
         "next": null,
         "paragraphProperty": Object {
@@ -110652,6 +111009,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Closing",
         "next": null,
         "paragraphProperty": Object {
@@ -110737,6 +111095,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "本文 21",
         "next": null,
         "paragraphProperty": Object {
@@ -110758,6 +111117,7 @@ Object {
           },
           "runProperty": Object {},
           "tabs": Array [],
+          "wordWrap": false,
         },
         "runProperty": Object {
           "fonts": Object {
@@ -110833,6 +111193,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "本文ｲﾝﾃﾞﾝﾄ2",
         "next": null,
         "paragraphProperty": Object {
@@ -110923,6 +111284,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "日付1",
         "next": null,
         "paragraphProperty": Object {
@@ -111008,6 +111370,7 @@ Object {
       },
       Object {
         "basedOn": "Nounphrase",
+        "default": false,
         "name": "Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -111093,6 +111456,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Note Heading",
         "next": null,
         "paragraphProperty": Object {
@@ -111177,6 +111541,7 @@ Object {
       },
       Object {
         "basedOn": "af7",
+        "default": false,
         "name": "表紙の日付他",
         "next": null,
         "paragraphProperty": Object {
@@ -111191,6 +111556,7 @@ Object {
           "tabs": Array [],
           "textAlignment": "baseline",
           "widowControl": true,
+          "wordWrap": false,
         },
         "runProperty": Object {
           "bold": true,
@@ -111268,6 +111634,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "xl31",
         "next": null,
         "paragraphProperty": Object {
@@ -111371,6 +111738,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "table of figures",
         "next": null,
         "paragraphProperty": Object {
@@ -111454,6 +111822,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 1",
         "next": null,
         "paragraphProperty": Object {
@@ -111537,6 +111906,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 2",
         "next": null,
         "paragraphProperty": Object {
@@ -111620,6 +111990,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 3",
         "next": null,
         "paragraphProperty": Object {
@@ -111703,6 +112074,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 4",
         "next": null,
         "paragraphProperty": Object {
@@ -111786,6 +112158,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 5",
         "next": null,
         "paragraphProperty": Object {
@@ -111869,6 +112242,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 6",
         "next": null,
         "paragraphProperty": Object {
@@ -111952,6 +112326,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 7",
         "next": null,
         "paragraphProperty": Object {
@@ -112035,6 +112410,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 8",
         "next": null,
         "paragraphProperty": Object {
@@ -112118,6 +112494,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index 9",
         "next": null,
         "paragraphProperty": Object {
@@ -112201,6 +112578,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "index heading",
         "next": null,
         "paragraphProperty": Object {
@@ -112273,6 +112651,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "29",
         "name": "Body Text 2",
         "next": null,
@@ -112353,6 +112732,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "HTML Address",
         "next": null,
         "paragraphProperty": Object {
@@ -112428,6 +112808,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "HTML Preformatted",
         "next": null,
         "paragraphProperty": Object {
@@ -112508,6 +112889,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Block Text",
         "next": null,
         "paragraphProperty": Object {
@@ -112588,6 +112970,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "macro",
         "next": null,
         "paragraphProperty": Object {
@@ -112733,6 +113116,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Message Header",
         "next": null,
         "paragraphProperty": Object {
@@ -112860,6 +113244,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Salutation",
         "next": null,
         "paragraphProperty": Object {
@@ -112932,6 +113317,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "envelope address",
         "next": null,
         "paragraphProperty": Object {
@@ -113030,6 +113416,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List",
         "next": null,
         "paragraphProperty": Object {
@@ -113113,6 +113500,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List 2",
         "next": null,
         "paragraphProperty": Object {
@@ -113196,6 +113584,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List 3",
         "next": null,
         "paragraphProperty": Object {
@@ -113279,6 +113668,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List 4",
         "next": null,
         "paragraphProperty": Object {
@@ -113362,6 +113752,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List 5",
         "next": null,
         "paragraphProperty": Object {
@@ -113445,6 +113836,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "table of authorities",
         "next": null,
         "paragraphProperty": Object {
@@ -113528,6 +113920,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "toa heading",
         "next": null,
         "paragraphProperty": Object {
@@ -113611,6 +114004,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Bullet",
         "next": null,
         "paragraphProperty": Object {
@@ -113687,6 +114081,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Bullet 2",
         "next": null,
         "paragraphProperty": Object {
@@ -113763,6 +114158,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Bullet 3",
         "next": null,
         "paragraphProperty": Object {
@@ -113839,6 +114235,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Bullet 4",
         "next": null,
         "paragraphProperty": Object {
@@ -113915,6 +114312,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Bullet 5",
         "next": null,
         "paragraphProperty": Object {
@@ -114013,6 +114411,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Continue",
         "next": null,
         "paragraphProperty": Object {
@@ -114096,6 +114495,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Continue 2",
         "next": null,
         "paragraphProperty": Object {
@@ -114179,6 +114579,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Continue 3",
         "next": null,
         "paragraphProperty": Object {
@@ -114262,6 +114663,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Continue 4",
         "next": null,
         "paragraphProperty": Object {
@@ -114345,6 +114747,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Continue 5",
         "next": null,
         "paragraphProperty": Object {
@@ -114428,6 +114831,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "footnote text",
         "next": null,
         "paragraphProperty": Object {
@@ -114502,6 +114906,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Document Map",
         "next": null,
         "paragraphProperty": Object {
@@ -114584,6 +114989,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "envelope return",
         "next": null,
         "paragraphProperty": Object {
@@ -114662,6 +115068,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Signature",
         "next": null,
         "paragraphProperty": Object {
@@ -114735,6 +115142,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Plain Text",
         "next": null,
         "paragraphProperty": Object {
@@ -114814,6 +115222,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "caption",
         "next": null,
         "paragraphProperty": Object {
@@ -114895,6 +115304,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Number 4",
         "next": null,
         "paragraphProperty": Object {
@@ -114971,6 +115381,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "List Number 5",
         "next": null,
         "paragraphProperty": Object {
@@ -115047,6 +115458,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "E-mail Signature",
         "next": null,
         "paragraphProperty": Object {
@@ -115119,6 +115531,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "Normal (Web)",
         "next": null,
         "paragraphProperty": Object {
@@ -115198,6 +115611,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "name": "endnote text",
         "next": null,
         "paragraphProperty": Object {
@@ -115272,6 +115686,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "39",
         "name": "Body Text 3",
         "next": null,
@@ -115348,6 +115763,7 @@ Object {
       },
       Object {
         "basedOn": "af9",
+        "default": false,
         "link": "afff5",
         "name": "Body Text First Indent",
         "next": null,
@@ -115435,6 +115851,7 @@ Object {
       },
       Object {
         "basedOn": "af",
+        "default": false,
         "link": "2d",
         "name": "Body Text First Indent 2",
         "next": null,
@@ -115532,6 +115949,7 @@ Object {
       },
       Object {
         "basedOn": "a7",
+        "default": false,
         "link": "afff7",
         "name": "Balloon Text",
         "next": null,
@@ -115616,6 +116034,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "afff6",
         "name": "吹き出し (文字)",
         "next": null,
@@ -115698,6 +116117,7 @@ Object {
       },
       Object {
         "basedOn": "a2",
+        "default": false,
         "name": "★NEWスタイル",
         "next": null,
         "paragraphProperty": Object {
@@ -115784,6 +116204,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "af3",
         "name": "コメント文字列 (文字)",
         "next": null,
@@ -115865,6 +116286,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "HTML Typewriter",
         "next": null,
         "paragraphProperty": Object {
@@ -115946,6 +116368,7 @@ Object {
       },
       Object {
         "basedOn": "aa",
+        "default": false,
         "name": "Table Grid",
         "next": null,
         "paragraphProperty": Object {
@@ -116022,6 +116445,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "af9",
         "name": "本文 (文字)",
         "next": null,
@@ -116103,6 +116527,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "af",
         "name": "本文インデント (文字)",
         "next": null,
@@ -116182,6 +116607,7 @@ Object {
       },
       Object {
         "basedOn": "aa",
+        "default": false,
         "name": "Light List Accent 5",
         "next": null,
         "paragraphProperty": Object {
@@ -116260,6 +116686,7 @@ Object {
       },
       Object {
         "basedOn": "aa",
+        "default": false,
         "name": "Light Shading Accent 3",
         "next": null,
         "paragraphProperty": Object {
@@ -116342,6 +116769,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
@@ -116420,6 +116848,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "2c",
         "name": "本文字下げ 2 (文字)",
         "next": null,
@@ -116501,6 +116930,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "23",
         "name": "本文インデント 2 (文字)",
         "next": null,
@@ -116582,6 +117012,7 @@ Object {
       },
       Object {
         "basedOn": "af",
+        "default": false,
         "name": "★スタイル2",
         "next": null,
         "paragraphProperty": Object {
@@ -116658,6 +117089,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "28",
         "name": "本文 2 (文字)",
         "next": null,
@@ -116737,6 +117169,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "38",
         "name": "本文 3 (文字)",
         "next": null,
@@ -116818,6 +117251,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "33",
         "name": "本文インデント 3 (文字)",
         "next": null,
@@ -116900,6 +117334,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "afff4",
         "name": "本文字下げ (文字)",
         "next": null,
@@ -116981,6 +117416,7 @@ Object {
       },
       Object {
         "basedOn": "1",
+        "default": false,
         "name": "TOC Heading",
         "next": null,
         "paragraphProperty": Object {
@@ -117080,6 +117516,7 @@ Object {
       },
       Object {
         "basedOn": "af3",
+        "default": false,
         "link": "afffc",
         "name": "annotation subject",
         "next": null,
@@ -117161,6 +117598,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "afffb",
         "name": "コメント内容 (文字)",
         "next": null,
@@ -117244,6 +117682,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Intense Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -117322,6 +117761,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Default",
         "next": null,
         "paragraphProperty": Object {
@@ -117405,6 +117845,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Subtle Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -117479,6 +117920,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Table Bullet1",
         "next": null,
         "paragraphProperty": Object {
@@ -117567,6 +118009,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "endnote reference",
         "next": null,
         "paragraphProperty": Object {
@@ -125766,6 +126209,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -125856,6 +126300,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 1",
         "next": null,
         "paragraphProperty": Object {
@@ -125946,6 +126391,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "Heading2Char",
         "name": "heading 2",
         "next": null,
@@ -126027,6 +126473,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 3",
         "next": null,
         "paragraphProperty": Object {
@@ -126104,6 +126551,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 4",
         "next": null,
         "paragraphProperty": Object {
@@ -126181,6 +126629,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 5",
         "next": null,
         "paragraphProperty": Object {
@@ -126265,6 +126714,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 6",
         "next": null,
         "paragraphProperty": Object {
@@ -126342,6 +126792,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 7",
         "next": null,
         "paragraphProperty": Object {
@@ -126419,6 +126870,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 8",
         "next": null,
         "paragraphProperty": Object {
@@ -126496,6 +126948,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "heading 9",
         "next": null,
         "paragraphProperty": Object {
@@ -126587,6 +127040,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -126659,6 +127113,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -126713,6 +127168,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -126785,6 +127241,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "header",
         "next": null,
         "paragraphProperty": Object {
@@ -126882,6 +127339,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "footer",
         "next": null,
         "paragraphProperty": Object {
@@ -126979,6 +127437,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 1",
         "next": null,
         "paragraphProperty": Object {
@@ -127079,6 +127538,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 2",
         "next": null,
         "paragraphProperty": Object {
@@ -127182,6 +127642,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "page number",
         "next": null,
         "paragraphProperty": Object {
@@ -127261,6 +127722,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Center Text",
         "next": null,
         "paragraphProperty": Object {
@@ -127345,6 +127807,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "footnote text",
         "next": null,
         "paragraphProperty": Object {
@@ -127438,6 +127901,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "endnote text",
         "next": null,
         "paragraphProperty": Object {
@@ -127534,6 +127998,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "footnote reference",
         "next": null,
         "paragraphProperty": Object {
@@ -127614,6 +128079,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "envelope address",
         "next": null,
         "paragraphProperty": Object {
@@ -127710,6 +128176,7 @@ Object {
       },
       Object {
         "basedOn": "CenterText",
+        "default": false,
         "name": "Center Text Bold",
         "next": null,
         "paragraphProperty": Object {
@@ -127785,6 +128252,7 @@ Object {
       },
       Object {
         "basedOn": "CenterText",
+        "default": false,
         "name": "Center Text Bold/Und",
         "next": null,
         "paragraphProperty": Object {
@@ -127861,6 +128329,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Def2 Heading 1",
         "next": null,
         "paragraphProperty": Object {
@@ -127943,6 +128412,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Def2 Heading 2",
         "next": null,
         "paragraphProperty": Object {
@@ -128025,6 +128495,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Def2 Heading 3",
         "next": null,
         "paragraphProperty": Object {
@@ -128108,6 +128579,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Def2 Heading 4",
         "next": null,
         "paragraphProperty": Object {
@@ -128191,6 +128663,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Def2 Heading 5",
         "next": null,
         "paragraphProperty": Object {
@@ -128273,6 +128746,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "ExA Heading 1",
         "next": null,
         "paragraphProperty": Object {
@@ -128355,6 +128829,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "ExA Heading 2",
         "next": null,
         "paragraphProperty": Object {
@@ -128437,6 +128912,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "ExA Heading 3",
         "next": null,
         "paragraphProperty": Object {
@@ -128520,6 +128996,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "ExA Heading 4",
         "next": null,
         "paragraphProperty": Object {
@@ -128603,6 +129080,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "ExA Heading 5",
         "next": null,
         "paragraphProperty": Object {
@@ -128685,6 +129163,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Flush Right",
         "next": null,
         "paragraphProperty": Object {
@@ -128774,6 +129253,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Signature Line",
         "next": null,
         "paragraphProperty": Object {
@@ -128868,6 +129348,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Signature Line 2-col",
         "next": null,
         "paragraphProperty": Object {
@@ -128977,6 +129458,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Table Style",
         "next": null,
         "paragraphProperty": Object {
@@ -129063,6 +129545,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "annotation reference",
         "next": null,
         "paragraphProperty": Object {
@@ -129138,6 +129621,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "envelope return",
         "next": null,
         "paragraphProperty": Object {
@@ -129224,6 +129708,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "annotation text",
         "next": null,
         "paragraphProperty": Object {
@@ -129299,6 +129784,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 3",
         "next": null,
         "paragraphProperty": Object {
@@ -129379,6 +129865,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 4",
         "next": null,
         "paragraphProperty": Object {
@@ -129459,6 +129946,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 5",
         "next": null,
         "paragraphProperty": Object {
@@ -129539,6 +130027,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 6",
         "next": null,
         "paragraphProperty": Object {
@@ -129619,6 +130108,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 7",
         "next": null,
         "paragraphProperty": Object {
@@ -129699,6 +130189,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 8",
         "next": null,
         "paragraphProperty": Object {
@@ -129779,6 +130270,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "toc 9",
         "next": null,
         "paragraphProperty": Object {
@@ -129859,6 +130351,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Label",
         "next": null,
         "paragraphProperty": Object {
@@ -129945,6 +130438,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Signature",
         "next": null,
         "paragraphProperty": Object {
@@ -130025,6 +130519,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Body Text Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -130098,6 +130593,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Body Text Indent 2",
         "next": null,
         "paragraphProperty": Object {
@@ -130262,6 +130758,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Body Text Indent 3",
         "next": null,
         "paragraphProperty": Object {
@@ -130334,6 +130831,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "endnote reference",
         "next": null,
         "paragraphProperty": Object {
@@ -130408,6 +130906,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "(i)",
         "next": null,
         "paragraphProperty": Object {
@@ -130484,6 +130983,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Style1",
         "next": null,
         "paragraphProperty": Object {
@@ -130560,6 +131060,7 @@ Object {
       },
       Object {
         "basedOn": "CommentText",
+        "default": false,
         "name": "annotation subject",
         "next": null,
         "paragraphProperty": Object {
@@ -130635,6 +131136,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Char",
         "next": null,
         "paragraphProperty": Object {
@@ -130733,6 +131235,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "Body Text",
         "next": null,
         "paragraphProperty": Object {
@@ -130816,6 +131319,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "name": "section-para",
         "next": null,
         "paragraphProperty": Object {
@@ -130904,6 +131408,7 @@ Object {
       },
       Object {
         "basedOn": "Normal",
+        "default": false,
         "link": "BalloonTextChar",
         "name": "Balloon Text",
         "next": null,
@@ -130988,6 +131493,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "BalloonText",
         "name": "Balloon Text Char",
         "next": null,
@@ -131069,6 +131575,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "name": "Placeholder Text",
         "next": null,
         "paragraphProperty": Object {
@@ -131143,6 +131650,7 @@ Object {
       },
       Object {
         "basedOn": "DefaultParagraphFont",
+        "default": false,
         "link": "Heading2",
         "name": "Heading 2 Char",
         "next": null,
@@ -131949,6 +132457,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -132022,6 +132531,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -132094,6 +132604,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -132148,6 +132659,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -132220,6 +132732,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
@@ -141731,6 +142244,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -141846,6 +142360,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "heading 1",
         "next": null,
         "paragraphProperty": Object {
@@ -141944,6 +142459,7 @@ Object {
       },
       Object {
         "basedOn": "1",
+        "default": false,
         "name": "heading 2",
         "next": null,
         "paragraphProperty": Object {
@@ -142024,6 +142540,7 @@ Object {
       },
       Object {
         "basedOn": "2",
+        "default": false,
         "name": "heading 3",
         "next": null,
         "paragraphProperty": Object {
@@ -142104,6 +142621,7 @@ Object {
       },
       Object {
         "basedOn": "3",
+        "default": false,
         "name": "heading 4",
         "next": null,
         "paragraphProperty": Object {
@@ -142181,6 +142699,7 @@ Object {
       },
       Object {
         "basedOn": "4",
+        "default": false,
         "name": "heading 5",
         "next": null,
         "paragraphProperty": Object {
@@ -142264,6 +142783,7 @@ Object {
       },
       Object {
         "basedOn": "5",
+        "default": false,
         "name": "heading 6",
         "next": null,
         "paragraphProperty": Object {
@@ -142343,6 +142863,7 @@ Object {
       },
       Object {
         "basedOn": "6",
+        "default": false,
         "name": "heading 7",
         "next": null,
         "paragraphProperty": Object {
@@ -142423,6 +142944,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "heading 8",
         "next": null,
         "paragraphProperty": Object {
@@ -142521,6 +143043,7 @@ Object {
       },
       Object {
         "basedOn": "8",
+        "default": false,
         "name": "heading 9",
         "next": null,
         "paragraphProperty": Object {
@@ -142607,6 +143130,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -142679,6 +143203,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -142733,6 +143258,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -142805,6 +143331,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Body Text",
         "next": null,
         "paragraphProperty": Object {
@@ -142880,6 +143407,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List",
         "next": null,
         "paragraphProperty": Object {
@@ -142963,6 +143491,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List 2",
         "next": null,
         "paragraphProperty": Object {
@@ -143046,6 +143575,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Bullet",
         "next": null,
         "paragraphProperty": Object {
@@ -143129,6 +143659,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Continue",
         "next": null,
         "paragraphProperty": Object {
@@ -143212,6 +143743,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Body Text Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -143295,6 +143827,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Normal Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -143375,6 +143908,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "page number",
         "next": null,
         "paragraphProperty": Object {
@@ -143447,6 +143981,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "header",
         "next": null,
         "paragraphProperty": Object {
@@ -143544,6 +144079,7 @@ Object {
       },
       Object {
         "basedOn": "aa",
+        "default": false,
         "name": "footer",
         "next": null,
         "paragraphProperty": Object {
@@ -143636,6 +144172,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "toc 1",
         "next": null,
         "paragraphProperty": Object {
@@ -143743,6 +144280,7 @@ Object {
       },
       Object {
         "basedOn": "10",
+        "default": false,
         "name": "toc 2",
         "next": null,
         "paragraphProperty": Object {
@@ -143829,6 +144367,7 @@ Object {
       },
       Object {
         "basedOn": "21",
+        "default": false,
         "name": "toc 3",
         "next": null,
         "paragraphProperty": Object {
@@ -143909,6 +144448,7 @@ Object {
       },
       Object {
         "basedOn": "21",
+        "default": false,
         "name": "toc 4",
         "next": null,
         "paragraphProperty": Object {
@@ -143992,6 +144532,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 5",
         "next": null,
         "paragraphProperty": Object {
@@ -144083,6 +144624,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 6",
         "next": null,
         "paragraphProperty": Object {
@@ -144174,6 +144716,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 7",
         "next": null,
         "paragraphProperty": Object {
@@ -144265,6 +144808,7 @@ Object {
       },
       Object {
         "basedOn": "10",
+        "default": false,
         "name": "toc 8",
         "next": null,
         "paragraphProperty": Object {
@@ -144340,6 +144884,7 @@ Object {
       },
       Object {
         "basedOn": "10",
+        "default": false,
         "name": "toc 9",
         "next": null,
         "paragraphProperty": Object {
@@ -144415,6 +144960,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "footnote text",
         "next": null,
         "paragraphProperty": Object {
@@ -144509,6 +145055,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "footnote reference",
         "next": null,
         "paragraphProperty": Object {
@@ -144584,6 +145131,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "annotation reference",
         "next": null,
         "paragraphProperty": Object {
@@ -144659,6 +145207,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "annotation text",
         "next": null,
         "paragraphProperty": Object {
@@ -144734,6 +145283,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "index 7",
         "next": null,
         "paragraphProperty": Object {
@@ -144814,6 +145364,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "index 6",
         "next": null,
         "paragraphProperty": Object {
@@ -144894,6 +145445,7 @@ Object {
       },
       Object {
         "basedOn": "22",
+        "default": false,
         "name": "index 5",
         "next": null,
         "paragraphProperty": Object {
@@ -144974,6 +145526,7 @@ Object {
       },
       Object {
         "basedOn": "22",
+        "default": false,
         "name": "index 4",
         "next": null,
         "paragraphProperty": Object {
@@ -145054,6 +145607,7 @@ Object {
       },
       Object {
         "basedOn": "22",
+        "default": false,
         "name": "index 3",
         "next": null,
         "paragraphProperty": Object {
@@ -145134,6 +145688,7 @@ Object {
       },
       Object {
         "basedOn": "11",
+        "default": false,
         "name": "index 2",
         "next": null,
         "paragraphProperty": Object {
@@ -145214,6 +145769,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "index 1",
         "next": null,
         "paragraphProperty": Object {
@@ -145298,6 +145854,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "index heading",
         "next": null,
         "paragraphProperty": Object {
@@ -145376,6 +145933,7 @@ Object {
       },
       Object {
         "basedOn": "List1",
+        "default": false,
         "name": "List2",
         "next": null,
         "paragraphProperty": Object {
@@ -145456,6 +146014,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List1",
         "next": null,
         "paragraphProperty": Object {
@@ -145539,6 +146098,7 @@ Object {
       },
       Object {
         "basedOn": "ChapterTitle",
+        "default": false,
         "name": "cover text",
         "next": null,
         "paragraphProperty": Object {
@@ -145617,6 +146177,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Chapter Title",
         "next": null,
         "paragraphProperty": Object {
@@ -145704,6 +146265,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Table Title",
         "next": null,
         "paragraphProperty": Object {
@@ -145793,6 +146355,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Logo/Manual",
         "next": null,
         "paragraphProperty": Object {
@@ -145878,6 +146441,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "courier 10",
         "next": null,
         "paragraphProperty": Object {
@@ -145958,6 +146522,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "TableNormal",
         "next": null,
         "paragraphProperty": Object {
@@ -146071,6 +146636,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Note",
         "next": null,
         "paragraphProperty": Object {
@@ -146174,6 +146740,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Screen",
         "next": null,
         "paragraphProperty": Object {
@@ -146317,6 +146884,7 @@ Object {
       },
       Object {
         "basedOn": "List2Indent",
+        "default": false,
         "name": "List3 Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -146411,6 +146979,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Comverse",
         "next": null,
         "paragraphProperty": Object {
@@ -146500,6 +147069,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Address",
         "next": null,
         "paragraphProperty": Object {
@@ -146586,6 +147156,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Pic Large",
         "next": null,
         "paragraphProperty": Object {
@@ -146671,6 +147242,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Caution",
         "next": null,
         "paragraphProperty": Object {
@@ -146761,6 +147333,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Notice Text",
         "next": null,
         "paragraphProperty": Object {
@@ -146841,6 +147414,7 @@ Object {
       },
       Object {
         "basedOn": "List1",
+        "default": false,
         "name": "KWNList1",
         "next": null,
         "paragraphProperty": Object {
@@ -146914,6 +147488,7 @@ Object {
       },
       Object {
         "basedOn": "List2",
+        "default": false,
         "name": "KWNList2",
         "next": null,
         "paragraphProperty": Object {
@@ -146987,6 +147562,7 @@ Object {
       },
       Object {
         "basedOn": "LogoManual",
+        "default": false,
         "name": "TRILOGO",
         "next": null,
         "paragraphProperty": Object {
@@ -147070,6 +147646,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Caution/Notice",
         "next": null,
         "paragraphProperty": Object {
@@ -147161,6 +147738,7 @@ Object {
       },
       Object {
         "basedOn": "PicLarge",
+        "default": false,
         "name": "Pic Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -147241,6 +147819,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Table Caption",
         "next": null,
         "paragraphProperty": Object {
@@ -147339,6 +147918,7 @@ Object {
       },
       Object {
         "basedOn": "TableCaption",
+        "default": false,
         "name": "Figure Caption",
         "next": null,
         "paragraphProperty": Object {
@@ -147414,6 +147994,7 @@ Object {
       },
       Object {
         "basedOn": "List2",
+        "default": false,
         "name": "List3",
         "next": null,
         "paragraphProperty": Object {
@@ -147494,6 +148075,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Screen Courier",
         "next": null,
         "paragraphProperty": Object {
@@ -147602,6 +148184,7 @@ Object {
       },
       Object {
         "basedOn": "BulletinDescription",
+        "default": false,
         "name": "Bulletin Title",
         "next": null,
         "paragraphProperty": Object {
@@ -147681,6 +148264,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "caption",
         "next": null,
         "paragraphProperty": Object {
@@ -147759,6 +148343,7 @@ Object {
       },
       Object {
         "basedOn": "courier10",
+        "default": false,
         "name": "courier 10 bold",
         "next": null,
         "paragraphProperty": Object {
@@ -147841,6 +148426,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Notice",
         "next": null,
         "paragraphProperty": Object {
@@ -147934,6 +148520,7 @@ Object {
       },
       Object {
         "basedOn": "aa",
+        "default": false,
         "name": "HeaderEvenPageLandscape",
         "next": null,
         "paragraphProperty": Object {
@@ -148021,6 +148608,7 @@ Object {
       },
       Object {
         "basedOn": "HeaderEvenPageLandscape",
+        "default": false,
         "name": "HeaderOddPageLandscape",
         "next": null,
         "paragraphProperty": Object {
@@ -148096,6 +148684,7 @@ Object {
       },
       Object {
         "basedOn": "ab",
+        "default": false,
         "name": "FooterEvenPageLandscape",
         "next": null,
         "paragraphProperty": Object {
@@ -148183,6 +148772,7 @@ Object {
       },
       Object {
         "basedOn": "FooterEvenPageLandscape",
+        "default": false,
         "name": "FooterOddPageLandscape",
         "next": null,
         "paragraphProperty": Object {
@@ -148258,6 +148848,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Bulletin Address",
         "next": null,
         "paragraphProperty": Object {
@@ -148356,6 +148947,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Bulletin Description",
         "next": null,
         "paragraphProperty": Object {
@@ -148441,6 +149033,7 @@ Object {
       },
       Object {
         "basedOn": "ab",
+        "default": false,
         "name": "Bulletin Footer",
         "next": null,
         "paragraphProperty": Object {
@@ -148548,6 +149141,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Bulletin Logo",
         "next": null,
         "paragraphProperty": Object {
@@ -148637,6 +149231,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Front Cover",
         "next": null,
         "paragraphProperty": Object {
@@ -148742,6 +149337,7 @@ Object {
       },
       Object {
         "basedOn": "List3",
+        "default": false,
         "name": "List4",
         "next": null,
         "paragraphProperty": Object {
@@ -148826,6 +149422,7 @@ Object {
       },
       Object {
         "basedOn": "TableNormal",
+        "default": false,
         "name": "TableWrap",
         "next": null,
         "paragraphProperty": Object {
@@ -148909,6 +149506,7 @@ Object {
       },
       Object {
         "basedOn": "List2",
+        "default": false,
         "name": "List2 Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -149008,6 +149606,7 @@ Object {
       },
       Object {
         "basedOn": "List1",
+        "default": false,
         "name": "List1 Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -149102,6 +149701,7 @@ Object {
       },
       Object {
         "basedOn": "ab",
+        "default": false,
         "name": "Footer Front Matter Cover",
         "next": null,
         "paragraphProperty": Object {
@@ -149185,6 +149785,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "KWNNormal",
         "next": null,
         "paragraphProperty": Object {
@@ -149258,6 +149859,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Bulletin Cover",
         "next": null,
         "paragraphProperty": Object {
@@ -149346,6 +149948,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "logo. line 1",
         "next": null,
         "paragraphProperty": Object {
@@ -149426,6 +150029,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "logo. line 2",
         "next": null,
         "paragraphProperty": Object {
@@ -149508,6 +150112,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "logo. line 3",
         "next": null,
         "paragraphProperty": Object {
@@ -149586,6 +150191,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "logo. line 4",
         "next": null,
         "paragraphProperty": Object {
@@ -149669,6 +150275,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "logo. line 5",
         "next": null,
         "paragraphProperty": Object {
@@ -149771,6 +150378,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "List2 No Hang Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -149843,6 +150451,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List3 No Hang Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -149923,6 +150532,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "BulletinLogo",
         "next": null,
         "paragraphProperty": Object {
@@ -150007,6 +150617,7 @@ Object {
       },
       Object {
         "basedOn": "TableWrap",
+        "default": false,
         "name": "TableListEnd",
         "next": null,
         "paragraphProperty": Object {
@@ -150082,6 +150693,7 @@ Object {
       },
       Object {
         "basedOn": "TableWrap",
+        "default": false,
         "name": "TableListMiddle",
         "next": null,
         "paragraphProperty": Object {
@@ -150158,6 +150770,7 @@ Object {
       },
       Object {
         "basedOn": "TableListEnd",
+        "default": false,
         "name": "TableListStart",
         "next": null,
         "paragraphProperty": Object {
@@ -150234,6 +150847,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "List4 No Hang Indent",
         "next": null,
         "paragraphProperty": Object {
@@ -150314,6 +150928,7 @@ Object {
       },
       Object {
         "basedOn": "TableNormal",
+        "default": false,
         "name": "KWNTableNormal",
         "next": null,
         "paragraphProperty": Object {
@@ -150387,6 +151002,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "bold",
         "next": null,
         "paragraphProperty": Object {
@@ -150462,6 +151078,7 @@ Object {
       },
       Object {
         "basedOn": "TableNormal",
+        "default": false,
         "name": "TableWrap2",
         "next": null,
         "paragraphProperty": Object {
@@ -150545,6 +151162,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -150623,6 +151241,7 @@ Object {
       },
       Object {
         "basedOn": "1",
+        "default": false,
         "name": "apenhead",
         "next": null,
         "paragraphProperty": Object {
@@ -150707,6 +151326,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Body Text Indent 2",
         "next": null,
         "paragraphProperty": Object {
@@ -150786,6 +151406,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Body Text 2",
         "next": null,
         "paragraphProperty": Object {
@@ -150873,6 +151494,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Body Text Indent 3",
         "next": null,
         "paragraphProperty": Object {
@@ -150960,6 +151582,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "FollowedHyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -151035,6 +151658,7 @@ Object {
       },
       Object {
         "basedOn": "10",
+        "default": false,
         "name": "cover page",
         "next": null,
         "paragraphProperty": Object {
@@ -151157,6 +151781,7 @@ Object {
       },
       Object {
         "basedOn": "a2",
+        "default": false,
         "name": "Table Grid",
         "next": null,
         "paragraphProperty": Object {
@@ -151268,6 +151893,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Balloon Text",
         "next": null,
         "paragraphProperty": Object {
@@ -151348,6 +151974,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Char",
         "next": null,
         "paragraphProperty": Object {
@@ -151472,6 +152099,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Char1 Char Char Znak Znak1",
         "next": null,
         "paragraphProperty": Object {
@@ -151590,6 +152218,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Char1",
         "next": null,
         "paragraphProperty": Object {
@@ -151708,6 +152337,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "Strong",
         "next": null,
         "paragraphProperty": Object {
@@ -151783,6 +152413,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -151863,6 +152494,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Alert_text",
         "next": null,
         "paragraphProperty": Object {
@@ -151983,6 +152615,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
@@ -153047,6 +153680,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -153120,6 +153754,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -153192,6 +153827,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -153270,6 +153906,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -153342,6 +153979,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "Table Grid",
         "next": null,
         "paragraphProperty": Object {
@@ -154078,6 +154716,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -154151,6 +154790,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -154223,6 +154863,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -154277,6 +154918,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -155462,6 +156104,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -155535,6 +156178,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -155619,6 +156263,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -155701,6 +156346,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -155773,6 +156419,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -155827,6 +156474,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -155899,6 +156547,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -155981,6 +156630,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -156061,6 +156711,7 @@ Object {
       },
       Object {
         "basedOn": "1",
+        "default": false,
         "name": "TOC Heading",
         "next": null,
         "paragraphProperty": Object {
@@ -156148,6 +156799,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 1",
         "next": null,
         "paragraphProperty": Object {
@@ -156234,6 +156886,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 2",
         "next": null,
         "paragraphProperty": Object {
@@ -156326,6 +156979,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -156401,6 +157055,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 3",
         "next": null,
         "paragraphProperty": Object {
@@ -156488,6 +157143,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 4",
         "next": null,
         "paragraphProperty": Object {
@@ -156575,6 +157231,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 5",
         "next": null,
         "paragraphProperty": Object {
@@ -156662,6 +157319,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 6",
         "next": null,
         "paragraphProperty": Object {
@@ -156749,6 +157407,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 7",
         "next": null,
         "paragraphProperty": Object {
@@ -156836,6 +157495,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 8",
         "next": null,
         "paragraphProperty": Object {
@@ -156923,6 +157583,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 9",
         "next": null,
         "paragraphProperty": Object {
@@ -158943,6 +159604,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -159016,6 +159678,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -159104,6 +159767,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -159190,6 +159854,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "30",
         "name": "heading 3",
         "next": null,
@@ -159284,6 +159949,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "40",
         "name": "heading 4",
         "next": null,
@@ -159374,6 +160040,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "50",
         "name": "heading 5",
         "next": null,
@@ -159468,6 +160135,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "60",
         "name": "heading 6",
         "next": null,
@@ -159558,6 +160226,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "70",
         "name": "heading 7",
         "next": null,
@@ -159645,6 +160314,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "80",
         "name": "heading 8",
         "next": null,
@@ -159732,6 +160402,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "90",
         "name": "heading 9",
         "next": null,
@@ -159819,6 +160490,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -159891,6 +160563,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -159945,6 +160618,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -160017,6 +160691,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -160097,6 +160772,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -160179,6 +160855,7 @@ Object {
       },
       Object {
         "basedOn": "1",
+        "default": false,
         "name": "TOC Heading",
         "next": null,
         "paragraphProperty": Object {
@@ -160266,6 +160943,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 1",
         "next": null,
         "paragraphProperty": Object {
@@ -160363,6 +161041,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 2",
         "next": null,
         "paragraphProperty": Object {
@@ -160455,6 +161134,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 3",
         "next": null,
         "paragraphProperty": Object {
@@ -160542,6 +161222,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 4",
         "next": null,
         "paragraphProperty": Object {
@@ -160629,6 +161310,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 5",
         "next": null,
         "paragraphProperty": Object {
@@ -160716,6 +161398,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 6",
         "next": null,
         "paragraphProperty": Object {
@@ -160803,6 +161486,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 7",
         "next": null,
         "paragraphProperty": Object {
@@ -160890,6 +161574,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 8",
         "next": null,
         "paragraphProperty": Object {
@@ -160977,6 +161662,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "toc 9",
         "next": null,
         "paragraphProperty": Object {
@@ -161064,6 +161750,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -161144,6 +161831,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "3",
         "name": "見出し 3 (文字)",
         "next": null,
@@ -161224,6 +161912,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "4",
         "name": "見出し 4 (文字)",
         "next": null,
@@ -161300,6 +161989,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "5",
         "name": "見出し 5 (文字)",
         "next": null,
@@ -161380,6 +162070,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "6",
         "name": "見出し 6 (文字)",
         "next": null,
@@ -161456,6 +162147,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "7",
         "name": "見出し 7 (文字)",
         "next": null,
@@ -161529,6 +162221,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "8",
         "name": "見出し 8 (文字)",
         "next": null,
@@ -161602,6 +162295,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "9",
         "name": "見出し 9 (文字)",
         "next": null,
@@ -161675,6 +162369,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -162611,6 +163306,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -162683,6 +163379,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -162755,6 +163452,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -162809,6 +163507,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -162881,6 +163580,7 @@ Object {
       },
       Object {
         "basedOn": "a1",
+        "default": false,
         "name": "Table Grid",
         "next": null,
         "paragraphProperty": Object {
@@ -163642,6 +164342,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -163715,6 +164416,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -163787,6 +164489,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -163841,6 +164544,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -174203,6 +174907,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -174279,6 +174984,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "heading 1",
         "next": null,
         "paragraphProperty": Object {
@@ -174370,6 +175076,7 @@ Object {
       },
       Object {
         "basedOn": "1",
+        "default": false,
         "name": "heading 2",
         "next": null,
         "paragraphProperty": Object {
@@ -174450,6 +175157,7 @@ Object {
       },
       Object {
         "basedOn": "2",
+        "default": false,
         "name": "heading 3",
         "next": null,
         "paragraphProperty": Object {
@@ -174529,6 +175237,7 @@ Object {
       },
       Object {
         "basedOn": "3",
+        "default": false,
         "name": "heading 4",
         "next": null,
         "paragraphProperty": Object {
@@ -174602,6 +175311,7 @@ Object {
       },
       Object {
         "basedOn": "4",
+        "default": false,
         "name": "heading 5",
         "next": null,
         "paragraphProperty": Object {
@@ -174675,6 +175385,7 @@ Object {
       },
       Object {
         "basedOn": "5",
+        "default": false,
         "name": "heading 6",
         "next": null,
         "paragraphProperty": Object {
@@ -174748,6 +175459,7 @@ Object {
       },
       Object {
         "basedOn": "6",
+        "default": false,
         "name": "heading 7",
         "next": null,
         "paragraphProperty": Object {
@@ -174824,6 +175536,7 @@ Object {
       },
       Object {
         "basedOn": "7",
+        "default": false,
         "name": "heading 8",
         "next": null,
         "paragraphProperty": Object {
@@ -174897,6 +175610,7 @@ Object {
       },
       Object {
         "basedOn": "8",
+        "default": false,
         "name": "heading 9",
         "next": null,
         "paragraphProperty": Object {
@@ -174978,6 +175692,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -175050,6 +175765,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -175104,6 +175820,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -175176,6 +175893,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "締結者欄",
         "next": null,
         "paragraphProperty": Object {
@@ -175260,6 +175978,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "annotation reference",
         "next": null,
         "paragraphProperty": Object {
@@ -175335,6 +176054,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "annotation text",
         "next": null,
         "paragraphProperty": Object {
@@ -175408,6 +176128,7 @@ Object {
       },
       Object {
         "basedOn": "a6",
+        "default": false,
         "name": "annotation subject",
         "next": null,
         "paragraphProperty": Object {
@@ -175483,6 +176204,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Balloon Text",
         "next": null,
         "paragraphProperty": Object {
@@ -175563,6 +176285,7 @@ Object {
       },
       Object {
         "basedOn": "a2",
+        "default": false,
         "name": "Table Grid",
         "next": null,
         "paragraphProperty": Object {
@@ -175574,6 +176297,7 @@ Object {
           },
           "runProperty": Object {},
           "tabs": Array [],
+          "wordWrap": false,
         },
         "runProperty": Object {},
         "styleId": "a9",
@@ -175641,6 +176365,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "契約書タイトル",
         "next": null,
         "paragraphProperty": Object {
@@ -175723,6 +176448,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "条文番号",
         "next": null,
         "paragraphProperty": Object {
@@ -175804,6 +176530,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "項本文(1項のみで番号なし)",
         "next": null,
         "paragraphProperty": Object {
@@ -175891,6 +176618,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "号本文(丸数字)",
         "next": null,
         "paragraphProperty": Object {
@@ -175978,6 +176706,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "Char",
         "name": "項本文(複数項で番号あり)",
         "next": null,
@@ -176066,6 +176795,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Body Text",
         "next": null,
         "paragraphProperty": Object {
@@ -176161,6 +176891,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "表 中央揃え",
         "next": null,
         "paragraphProperty": Object {
@@ -176242,6 +176973,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "奥付 人名",
         "next": null,
         "paragraphProperty": Object {
@@ -176319,6 +177051,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "奥付 人名 タイトル",
         "next": null,
         "paragraphProperty": Object {
@@ -176400,6 +177133,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "ad",
         "name": "項本文(複数項で番号あり) Char",
         "next": null,
@@ -176482,6 +177216,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "奥付 タイトル",
         "next": null,
         "paragraphProperty": Object {
@@ -176563,6 +177298,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "Date",
         "next": null,
         "paragraphProperty": Object {
@@ -176635,6 +177371,7 @@ Object {
       },
       Object {
         "basedOn": "ac",
+        "default": false,
         "name": "号本文  1.5 字下げ",
         "next": null,
         "paragraphProperty": Object {
@@ -176718,6 +177455,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "ブロックタイトル",
         "next": null,
         "paragraphProperty": Object {
@@ -176800,6 +177538,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "英文用一行目字下げ",
         "next": null,
         "paragraphProperty": Object {
@@ -176887,6 +177626,7 @@ Object {
       },
       Object {
         "basedOn": "ad",
+        "default": false,
         "name": "条文外 (1) 項目列挙",
         "next": null,
         "paragraphProperty": Object {
@@ -176970,6 +177710,7 @@ Object {
       },
       Object {
         "basedOn": "ac",
+        "default": false,
         "name": "号本文(丸数字)中の片括弧列挙",
         "next": null,
         "paragraphProperty": Object {
@@ -177050,6 +177791,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "強調 12p 右寄せ",
         "next": null,
         "paragraphProperty": Object {
@@ -177135,6 +177877,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "奥付 右揃え",
         "next": null,
         "paragraphProperty": Object {
@@ -177220,6 +177963,7 @@ Object {
       },
       Object {
         "basedOn": "15",
+        "default": false,
         "name": "号本文内 片括弧 項目列挙",
         "next": null,
         "paragraphProperty": Object {
@@ -177303,6 +178047,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "包括委任状用 項目列挙",
         "next": null,
         "paragraphProperty": Object {
@@ -177390,6 +178135,7 @@ Object {
       },
       Object {
         "basedOn": "ac",
+        "default": false,
         "name": "目次 列挙",
         "next": null,
         "paragraphProperty": Object {
@@ -177470,6 +178216,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Hyperlink",
         "next": null,
         "paragraphProperty": Object {
@@ -177545,6 +178292,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "afc",
         "name": "header",
         "next": null,
@@ -177630,6 +178378,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "afb",
         "name": "ヘッダー (文字)",
         "next": null,
@@ -177706,6 +178455,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "afe",
         "name": "footer",
         "next": null,
@@ -177791,6 +178541,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "afd",
         "name": "フッター (文字)",
         "next": null,
@@ -177867,6 +178618,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "aff0",
         "name": "footnote text",
         "next": null,
@@ -177942,6 +178694,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "link": "aff",
         "name": "脚注文字列 (文字)",
         "next": null,
@@ -178018,6 +178771,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "footnote reference",
         "next": null,
         "paragraphProperty": Object {
@@ -178724,6 +179478,7 @@ Object {
     "styles": Array [
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal",
         "next": null,
         "paragraphProperty": Object {
@@ -178796,6 +179551,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "10",
         "name": "heading 1",
         "next": null,
@@ -178886,6 +179642,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "20",
         "name": "heading 2",
         "next": null,
@@ -178976,6 +179733,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "30",
         "name": "heading 3",
         "next": null,
@@ -179066,6 +179824,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "40",
         "name": "heading 4",
         "next": null,
@@ -179154,6 +179913,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "50",
         "name": "heading 5",
         "next": null,
@@ -179250,6 +180010,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "60",
         "name": "heading 6",
         "next": null,
@@ -179346,6 +180107,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "70",
         "name": "heading 7",
         "next": null,
@@ -179442,6 +180204,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "80",
         "name": "heading 8",
         "next": null,
@@ -179538,6 +180301,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "90",
         "name": "heading 9",
         "next": null,
@@ -179634,6 +180398,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Default Paragraph Font",
         "next": null,
         "paragraphProperty": Object {
@@ -179706,6 +180471,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "Normal Table",
         "next": null,
         "paragraphProperty": Object {
@@ -179760,6 +180526,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": true,
         "name": "No List",
         "next": null,
         "paragraphProperty": Object {
@@ -179832,6 +180599,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "1",
         "name": "見出し 1 (文字)",
         "next": null,
@@ -179915,6 +180683,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "2",
         "name": "見出し 2 (文字)",
         "next": null,
@@ -179998,6 +180767,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "3",
         "name": "見出し 3 (文字)",
         "next": null,
@@ -180081,6 +180851,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "4",
         "name": "見出し 4 (文字)",
         "next": null,
@@ -180162,6 +180933,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "5",
         "name": "見出し 5 (文字)",
         "next": null,
@@ -180243,6 +181015,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "6",
         "name": "見出し 6 (文字)",
         "next": null,
@@ -180324,6 +181097,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "7",
         "name": "見出し 7 (文字)",
         "next": null,
@@ -180405,6 +181179,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "8",
         "name": "見出し 8 (文字)",
         "next": null,
@@ -180486,6 +181261,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "9",
         "name": "見出し 9 (文字)",
         "next": null,
@@ -180567,6 +181343,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a4",
         "name": "Title",
         "next": null,
@@ -180654,6 +181431,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a3",
         "name": "表題 (文字)",
         "next": null,
@@ -180737,6 +181515,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a6",
         "name": "Subtitle",
         "next": null,
@@ -180829,6 +181608,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a5",
         "name": "副題 (文字)",
         "next": null,
@@ -180913,6 +181693,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "a8",
         "name": "Quote",
         "next": null,
@@ -180995,6 +181776,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "a7",
         "name": "引用文 (文字)",
         "next": null,
@@ -181072,6 +181854,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "name": "List Paragraph",
         "next": null,
         "paragraphProperty": Object {
@@ -181152,6 +181935,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Emphasis",
         "next": null,
         "paragraphProperty": Object {
@@ -181228,6 +182012,7 @@ Object {
       },
       Object {
         "basedOn": "a",
+        "default": false,
         "link": "23",
         "name": "Intense Quote",
         "next": null,
@@ -181338,6 +182123,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "link": "22",
         "name": "引用文 2 (文字)",
         "next": null,
@@ -181415,6 +182201,7 @@ Object {
       },
       Object {
         "basedOn": "a0",
+        "default": false,
         "name": "Intense Reference",
         "next": null,
         "paragraphProperty": Object {
@@ -181492,6 +182279,7 @@ Object {
       },
       Object {
         "basedOn": null,
+        "default": false,
         "name": "Revision",
         "next": null,
         "paragraphProperty": Object {
