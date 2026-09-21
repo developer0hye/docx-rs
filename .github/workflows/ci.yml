@@ -51,7 +51,7 @@ jobs:
         with:
           path: ~/.cargo/git
           key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
-      - run: cargo build
+      - run: cargo build --locked
 
   build-wasm:
     runs-on: ubuntu-latest
@@ -67,7 +67,7 @@ jobs:
         with:
           profile: minimal
           inherit-toolchain: true
-      - run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
+      - run: cargo install wasm-pack --locked --version 0.15.0
       - run: rustup target add wasm32-unknown-unknown
       - run: npm install -g pnpm
       - run: pnpm install && pnpm wasm-pack:node && pnpm wasm-pack:dev && tsc -p tsconfig.node.json && pnpm test
